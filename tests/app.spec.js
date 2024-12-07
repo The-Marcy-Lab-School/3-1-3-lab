@@ -3,9 +3,9 @@ import { describe, it, expect, afterEach, afterAll, beforeEach, vi } from 'vites
 import {
   mockFantasyBooksResponse,
   mockAuthorResponse,
-} from './fetched-mock-responses.js'
+} from '../src/fetched-mock-responses.js'
 
-import app from './app';
+import app from '../src/app.js';
 import ScoreCounter from 'score-tests';
 import path from 'path';
 import nock from 'nock';

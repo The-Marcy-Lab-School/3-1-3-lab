@@ -3,17 +3,17 @@ import {
   getFirstThreeFantasyBooks,
   getAuthor,
   createNewUser,
-} from './fetch-functions.js';
+} from '../src/fetch-functions.js';
 import {
   renderBookList,
   renderAuthorInfo,
   renderNewUserForm,
   renderNewUser,
-} from './render-functions.js';
+} from '../src/render-functions.js';
 import {
   mockFantasyBooksResponse,
   mockAuthorResponse,
-} from './fetched-mock-responses.js'
+} from '../src/fetched-mock-responses.js'
 import ScoreCounter from 'score-tests';
 import path from 'path';
 import nock from 'nock';
@@ -31,7 +31,7 @@ const baseJsonPlaceholder = 'https://jsonplaceholder.typicode.com';
 
 describe(testSuiteName, () => {
   afterEach(() => {
-      vi.restoreAllMocks()
+    vi.restoreAllMocks()
   });
 
   //////////////////////////////////////////////////////////////////////////////
@@ -58,7 +58,7 @@ describe(testSuiteName, () => {
     const fakeRoute = nock(baseOpenLibrary)
       .get('/subjects/fantasy.json').reply(200, mockFantasyBooksResponse);
 
-      let books;
+    let books;
     try {
       books = await getFirstThreeFantasyBooks()
     } catch (error) {
@@ -119,7 +119,7 @@ describe(testSuiteName, () => {
     const fakeRoute = nock(baseOpenLibrary)
       .get('/subjects/fantasy.json').reply(200, mockFantasyBooksResponse);
 
-      let books;
+    let books;
     try {
       books = await getFirstThreeFantasyBooks()
     } catch (error) {
