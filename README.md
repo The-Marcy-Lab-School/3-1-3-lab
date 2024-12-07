@@ -1,35 +1,25 @@
 # Mod 3 Lab - Fetch and Render
 
-- [Mod 3 Lab - Fetch and Render](#mod-3-lab---fetch-and-render)
-- [Congratulations!](#congratulations)
-- [Game Plan](#game-plan)
-  - [Timing](#timing)
-- [APIs](#apis)
-- [User Stories](#user-stories)
-  - [CSS](#css)
-- [Short Answers](#short-answers)
-- [Feature 1: Getting our books!](#feature-1-getting-our-books)
-  - [Section 1.1 - getFirstThreeFantasyBooks](#section-11---getfirstthreefantasybooks)
-    - [Function requirements](#function-requirements)
-    - [Data formatting](#data-formatting)
-    - [Test](#test)
-  - [Section 1.2 - renderBookList](#section-12---renderbooklist)
-    - [Function Requirements](#function-requirements-1)
-    - [Testing](#testing)
-    - [Slow API](#slow-api)
-    - [Data Layer separation](#data-layer-separation)
-- [Feature 2: Getting an author](#feature-2-getting-an-author)
-  - [Section 2.1 - getAuthor](#section-21---getauthor)
-    - [Function Requirements](#function-requirements-2)
-    - [Data formatting](#data-formatting-1)
-  - [Section 2.2 - renderAuthor](#section-22---renderauthor)
-  - [Section 2.3 - Adding it to our app](#section-23---adding-it-to-our-app)
-- [Feature 3: Making a new user](#feature-3-making-a-new-user)
-  - [Section 3.1 - createNewUser](#section-31---createnewuser)
-  - [Section 3.2 - renderNewUserForm](#section-32---rendernewuserform)
-  - [Section 3.3 - renderNewUser](#section-33---rendernewuser)
-  - [Section 3.4 - Adding it to our app](#section-34---adding-it-to-our-app)
-- [That's it!](#thats-it)
+- [Timing](#timing)
+- [CSS](#css)
+- [Section 1.1 - getFirstThreeFantasyBooks](#section-11---getfirstthreefantasybooks)
+  - [Function requirements](#function-requirements)
+  - [Data formatting](#data-formatting)
+  - [Test](#test)
+- [Section 1.2 - renderBookList](#section-12---renderbooklist)
+  - [Function Requirements](#function-requirements-1)
+  - [Testing](#testing)
+  - [Slow API](#slow-api)
+  - [Data Layer separation](#data-layer-separation)
+- [Section 2.1 - getAuthor](#section-21---getauthor)
+  - [Function Requirements](#function-requirements-2)
+  - [Data formatting](#data-formatting-1)
+- [Section 2.2 - renderAuthor](#section-22---renderauthor)
+- [Section 2.3 - Adding it to our app](#section-23---adding-it-to-our-app)
+- [Section 3.1 - createNewUser](#section-31---createnewuser)
+- [Section 3.2 - renderNewUserForm](#section-32---rendernewuserform)
+- [Section 3.3 - renderNewUser](#section-33---rendernewuser)
+- [Section 3.4 - Adding it to our app](#section-34---adding-it-to-our-app)
 
 
 # Congratulations!
@@ -77,9 +67,6 @@ We added some *very* basic and open ended CSS. Please don't mess with it. This i
 
 
 > And with that, off you go! Good luck!
-
-# Short Answers
-Seriously, do these first.
 
 # Feature 1: Getting our books!
 In this section, we're going to grab three books, parse and format the data, and then render them to the screen.
